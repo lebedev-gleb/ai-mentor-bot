@@ -85,8 +85,8 @@
 
 ```bash
 # 1. Клонируем репозиторий и переходим в него
-git clone https://github.com/gleb846/Telegram-bot-mentor.git
-cd Telegram-bot-mentor
+git clone https://github.com/lebedev-gleb/ai-mentor-bot.git
+cd ai-mentor-bot
 
 # 2. Создаём виртуальное окружение и активируем
 # Linux / macOS
@@ -115,7 +115,7 @@ python main.py
 ## 6. Пример работы бота
 
 <p>
-  <img src="https://github.com/gleb846/Telegram-bot-mentor/blob/main/photo_1.jpg" alt="Главное меню" width="325" />
-  <img src="https://github.com/gleb846/Telegram-bot-mentor/blob/main/photo_2.jpg" alt="Генерация плана" width="325" />
-  <img src="https://github.com/gleb846/Telegram-bot-mentor/blob/main/photo_3.jpg" alt="Health‑чек" width="325" />
+  <img src="https://github.com/lebedev-gleb/ai-mentor-bot/blob/main/photo_1.jpg" alt="Главное меню" width="325" />
+  <img src="https://github.com/lebedev-gleb/ai-mentor-bot/blob/main/photo_2.jpg" alt="Генерация плана" width="325" />
+  <img src="https://github.com/lebedev-gleb/ai-mentor-bot/blob/main/photo_3.jpg" alt="Health‑чек" width="325" />
 </p>
