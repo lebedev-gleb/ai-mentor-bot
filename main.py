@@ -1,3 +1,4 @@
+import os
 import telebot
 from telebot import types
 from types import SimpleNamespace
@@ -7,7 +8,7 @@ import g4f
 from datetime import datetime, timedelta, date
 from apscheduler.schedulers.background import BackgroundScheduler
 
-bot = telebot.TeleBot('7265663636:AAFwY5EF08zyVbPKzpTZ0CPBxhs4OiGruj8')
+bot = telebot.TeleBot(os.environ["TELEGRAM_TOKEN"])
 pending_tasks = {}
 MOTIVATIONS = [
     "Учёба — это инвестиция в себя. Чем больше вкладываешь сейчас, тем больше получишь потом!",
